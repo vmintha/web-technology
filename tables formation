@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of HTML Table Rowspan and Colspan</title>
+</head>
+<body>  
+    </table>
+    <h2>Example of Table Colspan</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th colspan="4 ">A</th>
+            <th rowspan="2">B</th>
+        </tr>
+        <tr>
+            <th colspan="2">A1</th>
+            <th colspan="2 ">A2</th>
+            
+        </tr>
+        <tr>
+            <td>xx</td>
+            <td>xx</td>
+            <td>yy</td>
+            <td>yy</td>
+            <td>zz</td>
+            
+        </tr>
+        <tr>
+            <td>xx</td>
+            <td>xx</td>
+            <td>yy</td>
+            <td>yy</td>
+            <td>zz</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

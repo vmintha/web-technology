@@ -1,0 +1,64 @@
+<!-- page1- filename=nextpage.html------------------------------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Onclick javascript to make browser go
+        back to previous page?
+    </title>
+</head>
+  
+<body>
+    <h1 style="color: green">
+        GeeksforGeeks
+    </h1>
+      
+    <b>
+        Onclick javascript to make browser
+        go back to previous page?
+     </b>
+       
+    <h2>Page 1</h2>
+      
+    <p>
+        Click on the link to get
+        to the second page.
+    </p>
+      
+    <a href="page2.html">
+        <img src="jimin.jpg" width="200" height="200">
+    </a>
+</body>
+  
+</html>
+
+
+
+<!-- page2--filename=page2.html-------------------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        jimn
+    </title>
+</head>
+  
+<body>
+    <h1 style="color: green">
+        jimin
+    </h1>
+      
+    <b>
+        <img src="jimin.jpg" width="500" height="400">
+     </b>
+       
+    <b>
+    <a href="nextpage.html">
+        
+        return previous page
+    </a>
+    </b>

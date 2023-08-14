@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        signup form
+    </title>
+</head>
+<body>
+    <h1 style="background-color: orange;">Signup </h1>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" placeholder="Enter first name"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name"><br><br>
+        <label for="dob">Date Of Birth</label>
+<select name="dob" id="dob">
+  <option value="none" selected disabled hidden>date</option>
+  <option value="16">16</option>
+  <option value="12">12</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+</select>
+<select name="dob" id="dob">
+    <option value="none" selected disabled hidden>month</option>
+    <option value="08">08</option>
+    <option value="01">01</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+  </select>
+  <select name="dob" id="dob">
+    <option value="none" selected disabled hidden>year</option>
+    <option value="16">2016</option>
+    <option value="12">2012</option>
+    <option value="10">2010</option>
+    <option value="11">2011</option>
+  </select><br><br>
+  <label for="html">gender</label>
+  <input type="radio" id="html" name="fav_language" value="female">
+  <label for="html">female</label>
+  <input type="radio" id="html" name="fav_language" value="male">
+  <label for="html">male</label><br>
+  <br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>

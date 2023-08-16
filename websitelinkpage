@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>HTML lists:ordered,unordered,and definition lists</h3>
+        <hr>
+        <p> following is thelist of student proposed activities:</p>
+        <ol type="1">
+            <li>develop program related with unit</li>
+            <li>develop any module on unit</li>
+            <li>multimedia presentation</li>
+        </ol>
+        <hr>
+        <p>List of software learning websites:</p>
+        <ul type="circle">
+            <li><u>ASP tutorials-w3 schools</u><br>
+                 <a href="https://www.w3schools.com/tags/tag_hr.asp" style="text-decoration: underline;">www.w3schools.com</a></li>
+            <li><u>ASP tutorials-w3 schools</u><br>
+                <a href="https://www.w3schools.com/tags/tag_hr.asp" style="text-decoration: underline;">www.w3schools.com</a></li>
+            <li><u>ASP tutorials-w3 schools</u><br>
+                <a href="https://www.w3schools.com/tags/tag_hr.asp" style="text-decoration: underline;">www.w3schools.com</a></li>
+    </ul>
+    <hr>
+    <p>HTML</p>
+    <blockquote>Hyper Text Markup Language</blockquote>
+    <P>XML</P>
+    <blockquote>eXtensible Markup Language</blockquote>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <table border="2" cellpadding="10">
+            <tr>
+                <th>HTML tag</th>
+                <th>output</th>
+            </tr>
+            <tr>
+                <td>normal text</td>
+                <td>hello world</td>
+            </tr>
+            <tr>
+                <td>font and its attributes</td>
+                <td style="color: blue;">hello world</td>
+            </tr>
+            <tr>
+                <td>&lt;B &gt;</td>
+                <td><B>hello world</B></td>
+            </tr>
+            <tr>
+                <td>&lt;i&gt;</td>
+                <td><i>hello world</i></td>
+            </tr>
+
+            <tr>
+                <td>&lt;u&gt;</td>
+                <td><u>hello world</u></td>
+            </tr>
+            <tr>
+                <td>&lt;strong&gt;</td>
+                <td><strong>hello world</strong></td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;</td>
+                <td><em>hello world</em></td>
+            </tr>
+            
+        </table>
+    </body>
+</html>

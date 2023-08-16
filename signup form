@@ -6,14 +6,14 @@
         signup form
     </title>
 </head>
-<body>
+<body><form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container" >
     <h1 style="background-color: orange;">Signup </h1>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label>
+        <label for="fname">                       First name:</label>
         <input type="text" id="fname" placeholder="Enter first name"><br><br>
-        <label for="lname">Last name:</label>
+        <label for="lname">                       Last name:</label>
         <input type="text" id="lname" name="lname" placeholder="Enter last name"><br><br>
-        <label for="dob">Date Of Birth</label>
+        <label for="dob">                         Date Of Birth: </label>
 <select name="dob" id="dob">
   <option value="none" selected disabled hidden>date</option>
   <option value="16">16</option>
@@ -35,13 +35,21 @@
     <option value="10">2010</option>
     <option value="11">2011</option>
   </select><br><br>
-  <label for="html">gender</label>
+  <label for="html">                             gender: </label>
   <input type="radio" id="html" name="fav_language" value="female">
   <label for="html">female</label>
   <input type="radio" id="html" name="fav_language" value="male">
   <label for="html">male</label><br>
   <br><br>
-        <input type="submit" value="Submit">
+  <label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px; text-align: right;"> i agree to the terms
+  </label><br><br>
+  <h1 style="background-color: orange;">
+        <input type="submit" value="Submit" >
+        <input type="submit" value="cancel" >
+
+  </h1>
+        </div>
       </form>
 </body>
 </html>

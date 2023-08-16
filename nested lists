@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <ol type="A">
+        <li>Background skills</li>
+        <ol type="I">
+            <li>unix</li>
+            <li>vim  text</li>
+        
+        </ol>
+        <li>HTML</li>
+        <ol type="I">
+            <li>headings</li>
+            <li>lists</li>
+            <ol type="i">
+                <li>ordered</li>
+                <li>unordered</li>
+            </ol>
+        </ol>
+        <li>programming</li>
+    </ol>
+</body>
+
+</html>

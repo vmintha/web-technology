@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var num, i, k, temp;
+            function prime()
+            {
+            num = parseInt(document.getElementById("number").value);
+            if(num)
+            {
+            let k=0;
+            temp = document.getElementById("template");
+            temp.style.display = "block";
+            for(i=2; i<num; i++)
+            {
+                   if(num%i==0)
+                    {
+                        k++;
+                        break;
+                    }
+            }
+            if(k==0)
+                document.getElementById("template").innerHTML = "It is a prime number";
+            else
+                document.getElementById("template").innerHTML = " It is not a Prime number";
+            }
+        }
+        </script>
+    </head>
+    <boby>
+        <p>Enter the Number: <input id="number"><button onclick="prime()">Check</button></p>
+        <p id="template"></p>
+        
+    </boby>
+</html>
